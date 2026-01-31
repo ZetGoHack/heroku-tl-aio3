@@ -691,7 +691,7 @@ keyboardButtonBuy#3fa53905 flags:# style:flags.10?KeyboardButtonStyle text:strin
 keyboardButtonUrlAuth#f51006f9 flags:# style:flags.10?KeyboardButtonStyle text:string fwd_text:flags.0?string url:string button_id:int = KeyboardButton;
 inputKeyboardButtonUrlAuth#68013e72 flags:# style:flags.10?KeyboardButtonStyle request_write_access:flags.0?true text:string fwd_text:flags.1?string url:string bot:InputUser = KeyboardButton;
 keyboardButtonRequestPoll#7a11d782 flags:# style:flags.10?KeyboardButtonStyle quiz:flags.0?Bool text:string = KeyboardButton;
-inputKeyboardButtonUserProfile#7d5e07c7 flags:# style:flags.10?KeyboardButtonStyle text:string input_user:InputUser = KeyboardButton;
+inputKeyboardButtonUserProfile#cf766747 flags:# style:flags.10?KeyboardButtonStyle text:string input_user:InputUser = KeyboardButton;
 keyboardButtonUserProfile#c0fd5d09 flags:# style:flags.10?KeyboardButtonStyle text:string user_id:long = KeyboardButton;
 keyboardButtonWebView#e846b1a0 flags:# style:flags.10?KeyboardButtonStyle text:string url:string = KeyboardButton;
 keyboardButtonSimpleWebView#e15c4370 flags:# style:flags.10?KeyboardButtonStyle text:string url:string = KeyboardButton;
@@ -2565,7 +2565,7 @@ messages.createForumTopic#2f98c3d5 flags:# title_missing:flags.4?true peer:Input
 messages.deleteTopicHistory#d2816f10 peer:InputPeer top_msg_id:int = messages.AffectedHistory;
 messages.getEmojiGameInfo#fb7e8ca7 = messages.EmojiGameInfo;
 messages.summarizeText#9d4104e2 flags:# peer:InputPeer id:int to_lang:flags.0?string = TextWithEntities;
-messages.craftStarGift#b0f9684f stargift:Vector<InputSavedStarGift> = Updates;
+messages.craftStarGift#2f063bdd stargift:Vector<InputSavedStarGift> = Updates;
 messages.getCraftStarGifts#fd05dd00 gift_id:long offset:string limit:int = payments.SavedStarGifts;
 
 updates.getState#edd4882a = updates.State;
