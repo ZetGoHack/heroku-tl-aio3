@@ -101,7 +101,9 @@ class TLObject:
             r'',
             representation
         )
-        return zlib.crc32(representation.encode('ascii'))
+        r = zlib.crc32(representation.encode('ascii'))
+        print(r)
+        return r
 
     def to_dict(self):
         return {

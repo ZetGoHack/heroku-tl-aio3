@@ -2566,7 +2566,7 @@ messages.deleteTopicHistory#d2816f10 peer:InputPeer top_msg_id:int = messages.Af
 messages.getEmojiGameInfo#fb7e8ca7 = messages.EmojiGameInfo;
 messages.summarizeText#9d4104e2 flags:# peer:InputPeer id:int to_lang:flags.0?string = TextWithEntities;
 messages.craftStarGift#6c6e6d3b stargift:Vector<InputSavedStarGift> = Updates;
-messages.getCraftStarGifts#894060ef gift_id:long offset:string limit:int = payments.SavedStarGifts;
+messages.getCraftStarGifts gift_id:long offset:string limit:int = payments.SavedStarGifts;
 
 updates.getState#edd4882a = updates.State;
 updates.getDifference#19c2f763 flags:# pts:int pts_limit:flags.1?int pts_total_limit:flags.0?int date:int qts:int qts_limit:flags.2?int = updates.Difference;
